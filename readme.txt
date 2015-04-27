@@ -2,7 +2,7 @@
 Contributors: SimonStone
 Tags: images, gallery, pixabay, widget, photos, photography, photostream, set, justified, grid, pictures, cliparts, clip arts, illustrations, stock photos, stock images, stock pictures, royalty-free, public domain, pd, copyright-free, free, free images, cc0, cc, creative commons, commercial use, search, media
 Requires at least: 3.5
-Tested up to: 4.1.1
+Tested up to: 4.2
 Stable tag: 1.0
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
