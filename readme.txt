@@ -2,8 +2,8 @@
 Contributors: SimonStone
 Tags: images, gallery, pixabay, widget, photos, photography, photostream, set, justified, grid, pictures, cliparts, clip arts, illustrations, stock photos, stock images, stock pictures, royalty-free, public domain, pd, copyright-free, free, free images, cc0, cc, creative commons, commercial use, search, media
 Requires at least: 3.5
-Tested up to: 4.2
-Stable tag: 1.0
+Tested up to: 4.2.2
+Stable tag: 1.1
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -15,7 +15,7 @@ A plugin for rendering Pixabay images galleries in a responsive layout, similar 
 
 Select in shortcodes, which images to display - filter by search term, image type or author. Include multiple widgets on the same page if you like.
 
-This is an official plugin by [Pixabay](http://pixabay.com/), your source for free images. Pixabay images are released under CC0 into the Public Domain. They may be used free of charge even for commercial projects and without paying attribution.
+This is an official plugin by [Pixabay](https://pixabay.com/), your source for free images. Pixabay images are released under CC0 into the Public Domain. They may be used free of charge even for commercial projects and without paying attribution.
 
  = Features: =
 
@@ -26,7 +26,7 @@ This is an official plugin by [Pixabay](http://pixabay.com/), your source for fr
 
 = Live Demo =
 
-See the widget in action: [Pixabay Images Gallery Demo](http://goodies.pixabay.com/javascript/pixabay-widget/demo.html)
+See the widget in action: [Pixabay Images Gallery Demo](https://goodies.pixabay.com/javascript/pixabay-widget/demo.html)
 
 
 == Installation ==
@@ -44,11 +44,11 @@ CC0 1.0 Universal is Creative Commons' Public Domain dedication, which is used f
 
 = Are there any restrictions or requirements for using these images? =
 
-You are free to adapt and use the images for commercial purposes without attributing the original author or source. Although absolutely not required, a link back to Pixabay is appreciated. Learn more in this article about: [public domain images and their limitations](http://pixabay.com/blog/posts/public-domain-images-4/)
+You are free to adapt and use the images for commercial purposes without attributing the original author or source. Although absolutely not required, a link back to Pixabay is appreciated. Learn more in this article about: [public domain images and their limitations](https://pixabay.com/blog/posts/public-domain-images-4/)
 
 = Where do I get further information about Pixabay? =
 
-Read Pixabay's [FAQ](http://pixabay.com/service/faq/) and/or their [Terms of Use](http://pixabay.com/service/terms/) to learn more.
+Read Pixabay's [FAQ](https://pixabay.com/service/faq/) and/or their [Terms of Use](https://pixabay.com/service/terms/) to learn more.
 
 == Screenshots ==
 
@@ -59,6 +59,11 @@ Read Pixabay's [FAQ](http://pixabay.com/service/faq/) and/or their [Terms of Use
 = 1.0 =
 
 * Initial release
+
+= 1.1 =
+
+* Tested in WordPress 4.2.2
+* Updated Pixabay API to use secure HTTPS connection.
 
 == Upgrade Notice ==
 

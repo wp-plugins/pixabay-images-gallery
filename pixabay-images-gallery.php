@@ -2,11 +2,11 @@
 
 /*
 Plugin Name: Pixabay Images Gallery
-Plugin URI: http://goodies.pixabay.com/javascript/pixabay-widget/demo.html
+Plugin URI: https://goodies.pixabay.com/javascript/pixabay-widget/demo.html
 Description: Use shortcodes to insert responsive Pixabay images galleries similar to Flickr, Google Images and 500px.
-Version: 1.0
+Version: 1.1
 Author: Simon Steinberger
-Author URI: http://pixabay.com/users/Simon/
+Author URI: https://pixabay.com/users/Simon/
 License: GPLv2
 */
 
@@ -56,7 +56,7 @@ function render_pxigw_shortcode($atts, $content=null) {
     $query_string = http_build_query($args);
     $cache_hash = md5($query_string);
     if (false == ($data = get_transient($cache_hash))) {
-        $data = wp_remote_retrieve_body(wp_remote_get('http://pixabay.com/api/?username=PixabayImagesGallery&key=0cf41601e76efe2b6ba9&'.$query_string, array('timeout' => 8)));
+        $data = wp_remote_retrieve_body(wp_remote_get('https://pixabay.com/api/?username=PixabayImagesGallery&key=0cf41601e76efe2b6ba9&'.$query_string, array('timeout' => 8)));
         set_transient($cache_hash, $data, 60*60*6);
     }
     $data = json_decode($data, true);
@@ -71,7 +71,7 @@ function render_pxigw_shortcode($atts, $content=null) {
         $nav = '';
         if ($is_paginated || $br) {
             $nav .= ('<div class="noselect '.$class_name.'_nav">');
-            if ($br) $nav .= ('<div class="branding">Powered by <a href="http://pixabay.com/" target="'.$o['target'].'">Pixabay</a></div>');
+            if ($br) $nav .= ('<div class="branding">Powered by <a href="https://pixabay.com/" target="'.$o['target'].'">Pixabay</a></div>');
             if ($is_paginated) {
                 if ($o['page'] > 1) $nav .= ('<b class="'.$class_name.'_prev">'.$o['prev'].'&nbsp;</b>');
                 else $nav .= ('<span>'.$o['prev'].'&nbsp;</span>');

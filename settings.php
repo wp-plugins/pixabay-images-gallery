@@ -143,7 +143,7 @@ function pxigw_settings_page() { ?>
         <tr><td>lang</td><td><?php echo __("The language to search in. Accepted values:", 'pxigw')." 'bg', 'cs', 'da', 'de', 'el', 'en', 'es', 'fi', 'fr', 'hu', 'id', 'it', 'ja', 'ko', 'nl', 'no', 'pl', 'pt', 'ro', 'ru', 'sk', 'sv', 'th', 'tr', 'vi', 'zh'"; ?></td></tr>
         <tr><td>image_type</td><td><?php echo __('A media type to search within. Accepted values:', 'pxigw' ).' "all", "photo", "illustration"'; ?></td></tr>
         <tr><td>safesearch</td><td><?php echo __('A flag indicating that only images suitable for all ages should be returned. Accepted values:', 'pxigw' ).' "true", "false"'; ?></td></tr>
-        <tr><td>editors_choice &nbsp;</td><td><?php echo __('Select images that have received an <a href="http://pixabay.com/editors_choice/">Editor\'s Choice</a> award. Accepted values:', 'pxigw' ).' "true", "false"'; ?></td></tr>
+        <tr><td>editors_choice &nbsp;</td><td><?php echo __('Select images that have received an <a href="https://pixabay.com/editors_choice/">Editor\'s Choice</a> award. Accepted values:', 'pxigw' ).' "true", "false"'; ?></td></tr>
         <tr><td>order</td><td><?php echo __('How the results should be ordered. Accepted values:', 'pxigw' ).' "popular", "latest"'; ?></td></tr>
         <tr><td>page</td><td><?php _e('Returned image sets are paginated. Use this parameter to select the page number.', 'pxigw' ); ?></td></tr>
         <tr><td>per_page</td><td><?php echo __('Maximum number of images per next/prev page. Values:', 'pxigw' ).' 3-100'; ?></td></tr>
@@ -167,7 +167,7 @@ function pxigw_settings_page() { ?>
     </form>
     <hr style="margin-bottom:20px">
     <p>
-        Official <a href="http://pixabay.com/"><img src="http://pixabay.com/static/img/logo_640.png" style="width:120px;margin:0 5px;position:relative;top:5px"></a> plugin by <a href="http://pixabay.com/service/imprint/">Simon Steinberger</a>.
+        Official <a href="https://pixabay.com/"><img src="https://pixabay.com/static/img/logo_640.png" style="width:120px;margin:0 5px;position:relative;top:5px"></a> plugin by <a href="https://pixabay.com/service/imprint/">Simon Steinberger</a>.
     </p>
     <p>Find us on <a href="https://www.facebook.com/pixabay">Facebook</a>, <a href="https://plus.google.com/+Pixabay">Google+</a> and <a href="https://twitter.com/pixabay">Twitter</a>.</p>
     </div>

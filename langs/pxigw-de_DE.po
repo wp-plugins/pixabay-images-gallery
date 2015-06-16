@@ -53,8 +53,8 @@ msgstr "Bild-Typ Suchfilter. Gültige Werte:"
 msgid "A flag indicating that only images suitable for all ages should be returned. Accepted values:"
 msgstr "Nur Bilder anzeigen, die für alle Altersgruppen geeignet sind. Gültige Werte:"
 
-msgid "Select images that have received an <a href=\"http://pixabay.com/editors_choice/\">Editor's Choice</a> award. Accepted values:"
-msgstr "Nur Bilder zeigen, die mit einem <a href=\"http://pixabay.com/editors_choice/\">Editor's Choice</a> ausgezeichnet wurden. Gültige Werte:"
+msgid "Select images that have received an <a href=\"https://pixabay.com/editors_choice/\">Editor's Choice</a> award. Accepted values:"
+msgstr "Nur Bilder zeigen, die mit einem <a href=\"https://pixabay.com/editors_choice/\">Editor's Choice</a> ausgezeichnet wurden. Gültige Werte:"
 
 msgid "How the results should be ordered. Accepted values:"
 msgstr "Sortierung der Suchergebnisse. Gültige Werte:"
