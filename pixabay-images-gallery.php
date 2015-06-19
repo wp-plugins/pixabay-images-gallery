@@ -4,7 +4,7 @@
 Plugin Name: Pixabay Images Gallery
 Plugin URI: https://goodies.pixabay.com/javascript/pixabay-widget/demo.html
 Description: Use shortcodes to insert responsive Pixabay images galleries similar to Flickr, Google Images and 500px.
-Version: 1.1
+Version: 1.2
 Author: Simon Steinberger
 Author URI: https://pixabay.com/users/Simon/
 License: GPLv2
