@@ -4,7 +4,7 @@
 Plugin Name: Pixabay Images Gallery
 Plugin URI: https://goodies.pixabay.com/javascript/pixabay-widget/demo.html
 Description: Use shortcodes to insert responsive Pixabay images galleries similar to Flickr, Google Images and 500px.
-Version: 1.3
+Version: 1.4
 Author: Simon Steinberger
 Author URI: https://pixabay.com/users/Simon/
 License: GPLv2
@@ -17,13 +17,14 @@ add_action('plugins_loaded', 'pxigw_load_textdomain');
 
 
 // add settings
-include("settings.php");
+include(plugin_dir_path(__FILE__).'settings.php');
 
 
 // include JavaScript in footer
-wp_enqueue_script('pixabayImagesGallery', plugins_url('js/pixabay-widget.min.js', __FILE__ ), [], false, true);
+wp_enqueue_script('pixabayImagesGallery', plugins_url('js/pixabay-widget.min.js', __FILE__ ), array(), false, true);
 // add async+defer attributes to script tag
-add_filter('script_loader_tag', function($tag, $handle) { if ($handle!=='pixabayImagesGallery') return $tag; return str_replace(' src', ' defer async src', $tag); }, 10, 2);
+function script_loader_tag_handle($tag, $handle) { if ($handle!=='pixabayImagesGallery') return $tag; return str_replace(' src', ' defer async src', $tag); }
+add_filter('script_loader_tag', script_loader_tag_handle, 10, 2);
 
 
 // [pixabay_gallery search="..." user="..." ...]
